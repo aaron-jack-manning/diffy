@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "diff"
+name = "diffy"
 version = "0.1.0"

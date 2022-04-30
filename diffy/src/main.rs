@@ -1,7 +1,3 @@
-/* TODO:
-- Optimise diff algorithm so it can be run on large input and not take forever.
-*/
-
 mod diff;
 
 use std::fs;
@@ -49,6 +45,6 @@ fn process() -> Result<String, String> {
 fn main() {
     match process() {
         Ok(message) => println!("{}", message),
-        Err(message) => println!("{}", message),
+       Err(message) => println!("{}", message),
     }
 }
